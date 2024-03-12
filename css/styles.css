@@ -273,9 +273,6 @@ color: #2E2F42
 .navigation-list .navigation-contacts:hover {
 color: #404BBF;
 }
-.navigation-item .logo:hover {
-border: 3px solid #404BBF;
-}
 .section-adv-list {
 padding-top: 120px;
 padding-left: 156px;

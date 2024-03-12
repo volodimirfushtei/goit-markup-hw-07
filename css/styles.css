@@ -261,7 +261,6 @@ color: #404BBF }
 .navigation-list .navigation-studio:active {
 text-decoration: underline;
 }
-
 .navigation-list .navigation-portfolio {
 color: #2E2F42
 }
@@ -274,6 +273,61 @@ color: #2E2F42
 .navigation-list .navigation-contacts:hover {
 color: #404BBF;
 }
-.navigation-item .logo-item:hover {
+.navigation-item .logo:hover {
 border: 3px solid #404BBF;
+}
+.section-adv-list {
+padding-top: 120px;
+padding-left: 156px;
+padding-right: 156px;
+padding-bottom: 120px;
+display: flex;
+
+}
+.advantages-conteiner {
+text-align: center;
+
+}
+.section-adv-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+text-align: left;
+margin-bottom: 8px;
+margin-top: 0;
+}
+.section-adv-title-link {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+margin-top: 0;
+margin-bottom: 0;
+text-align: left;
+
+}
+.section-adv-list-item {
+margin-left: 24px;
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+width: 264px;
+height: 104px;
+}
+.team-section {
+background: #f4f4fd;
+
+}
+.team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+padding-top: 120px;
 }

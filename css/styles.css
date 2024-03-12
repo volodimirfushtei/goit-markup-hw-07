@@ -135,7 +135,6 @@ font-family: "Roboto", sans-serif;
 font-family: "Raleway", sans-serif;
 color: #2e2f42;
 margin: 0;
-
 }
 a {
 text-decoration: none;
@@ -236,6 +235,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
+cursor: pointer;
 }
 .adress-list .link {
 color: #434455

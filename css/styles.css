@@ -186,7 +186,6 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
 gap: 40px;
 margin: auto;
 }
@@ -194,6 +193,7 @@ margin: auto;
 padding-top: 24px;
 padding-bottom: 24px;
 padding-left: 332px;
+color: #434455;
 }
 .adress-tel {
 font-weight: 400;
@@ -203,6 +203,7 @@ letter-spacing: 0.02em;
 padding-top: 24px;
 padding-bottom: 24px;
 padding-right: 156px;
+color: #434455;
 }
 .section-button {
 background: #2e2f42;
@@ -230,11 +231,47 @@ background: #4d5ae5;
 border-radius: 4px;
 border: none;
 padding: 16px 32px;
-
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
-
 }
+.adress-list .link {
+color: #434455
+}
+.adress-list .link:hover {
+color: #404BBF
+}
+.section-button .section-button-item {
+background: #4d5ae5;
+}
+.section-button .section-button-item:hover {
+background: #404BBF
+}
+.navigation-list .navigation-studio {
+color: #2E2F42
+}
+.navigation-list .navigation-studio:hover {
+color: #404BBF
+}
+.navigation-list .navigation-studio:active {
+color: #404BBF }
+.navigation-list .navigation-studio:active {
+text-decoration: underline;
+}
+
+.navigation-list .navigation-portfolio {
+color: #2E2F42
+}
+.navigation-list .navigation-portfolio:hover {
+color: #404BBF
+}
+.navigation-list .navigation-contacts {
+color: #2E2F42
+}
+.navigation-list .navigation-contacts:hover {
+color: #404BBF
+}
+
+

@@ -282,11 +282,7 @@ padding-left: 156px;
 padding-right: 156px;
 padding-bottom: 120px;
 display: flex;
-
 }
-
-
-
 .section-adv-title {
 font-weight: 500;
 font-size: 20px;
@@ -319,7 +315,6 @@ height: 104px;
 }
 .team-section {
 background: #f4f4fd;
-
 }
 .team-title {
 font-weight: 700;

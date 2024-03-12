@@ -181,14 +181,14 @@ padding-left: 76px;
 .adress-list {
 flex-direction: row;
 display: flex;
+gap: 40px;
+margin: auto;
+}
+.adress-mail {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-gap: 40px;
-margin: auto;
-}
-.adress-mail {  
 padding-top: 24px;
 padding-bottom: 24px;
 padding-left: 332px;
@@ -203,6 +203,7 @@ padding-top: 24px;
 padding-bottom: 24px;
 padding-right: 156px;
 color: #434455;
+
 }
 .section-button {
 background: #2e2f42;
@@ -271,7 +272,8 @@ color: #404BBF
 color: #2E2F42
 }
 .navigation-list .navigation-contacts:hover {
-color: #404BBF
+color: #404BBF;
 }
-
-
+.navigation-item .logo-item:hover {
+border: 3px solid #404BBF;
+}

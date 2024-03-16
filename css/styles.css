@@ -25,7 +25,7 @@ ul {
 .logo-item {
   color: #2e2f42;
 }
-.navigation-list {
+.navigation-list-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -92,31 +92,31 @@ ul {
 .section-button .section-button-item:focus {
   background: #404bbf;
 }
-.navigation-list .navigation-studio {
+.navigation-list-item .navigation-studio {
   color: #2e2f42;
 }
-.navigation-list .navigation-studio:hover,
-.navigation-list .navigation-studio:focus {
+.navigation-list-item .navigation-studio:hover,
+.navigation-list-item .navigation-studio:focus {
   color: #404bbf;
 }
-.navigation-list .navigation-studio:active {
+.navigation-list-item .navigation-studio:active {
   color: #404bbf;
 }
-.navigation-list .navigation-studio:active {
+.navigation-list-item .navigation-studio:active {
   text-decoration: underline;
 }
-.navigation-list .navigation-portfolio {
+.navigation-list-item .navigation-portfolio {
   color: #2e2f42;
 }
-.navigation-list .navigation-portfolio:hover,
-.navigation-list .navigation-portfolio:focus {
+.navigation-list-item .navigation-portfolio:hover,
+.navigation-list-item .navigation-portfolio:focus {
   color: #404bbf;
 }
-.navigation-list .navigation-contacts {
+.navigation-list-item .navigation-contacts {
   color: #2e2f42;
 }
-.navigation-list .navigation-contacts:hover,
-.navigation-list .navigation-contacts:focus {
+.navigation-list-item .navigation-contacts:hover,
+.navigation-list-item .navigation-contacts:focus {
   color: #404bbf;
 }
 .visually-hidden {

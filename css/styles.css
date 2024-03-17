@@ -25,21 +25,7 @@ ul {
 .logo-item {
   color: #2e2f42;
 }
-.navigation-contacts {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.navigation-portfolio {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.navigation-studio {
+.navigation-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -74,7 +60,6 @@ ul {
 .section-button-item {
   font-family: 'Roboto', sans-serif;
   background: #4d5ae5;
-  border: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -106,44 +91,32 @@ ul {
 .section-button .section-button-item:focus {
   background: #404bbf;
 }
-.navigation-list-item-studio .navigation-studio {
+.navigation-list-item-studio .navigation-link {
   color: #2e2f42;
 }
-.navigation-list-item-studio .navigation-studio:hover,
-.navigation-list-item-studio .navigation-studio:focus {
+.navigation-list-item-studio .navigation-link:hover,
+.navigation-list-item-studio .navigation-link:focus {
   color: #404bbf;
 }
-.navigation-list-item-studio .navigation-studio:active {
+.navigation-list-item-studio .navigation-link:active {
   color: #404bbf;
 }
-.navigation-list-item-studio .navigation-studio:active {
+.navigation-list-item-studio .navigation-link:active {
   text-decoration: underline;
 }
-.navigation-list-item-portfolio .navigation-portfolio {
+.navigation-list-item-portfolio .navigation-link {
   color: #2e2f42;
 }
-.navigation-list-item-portfolio .navigation-portfolio:hover,
-.navigation-list-item-portfolio .navigation-portfolio:focus {
+.navigation-list-item-portfolio .navigation-link:hover,
+.navigation-list-item-portfolio .navigation-link:focus {
   color: #404bbf;
 }
-.navigation-list-item-contacts .navigation-contacts {
+.navigation-list-item-contacts .navigation-link {
   color: #2e2f42;
 }
-.navigation-list-item-contacts .navigation-contacts:hover,
-.navigation-list-item-contacts .navigation-contacts:focus {
+.navigation-list-item-contacts .navigation-link:hover,
+.navigation-list-item-contacts .navigation-link:focus {
   color: #404bbf;
-}
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 .section-adv-title {
   font-weight: 500;

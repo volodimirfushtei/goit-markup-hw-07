@@ -28,11 +28,6 @@ ol {
 img {
   display: block;
 }
-
-.navigation {
-  text-decoration: none;
-  background: #fff;
-}
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -41,6 +36,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .logo-item {
   color: #2e2f42;
@@ -219,4 +216,46 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color1);
+}
+.conteiner {
+  max-width: 1158px;
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  display: flex;
+}
+.conteiner-nav {
+  display: flex;
+  margin-right: auto;
+}
+.conteiner-nav-list {
+  display: flex;
+  gap: 40px;
+  padding-left: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.contacts {
+  display: flex;
+  margin-left: auto;
+}
+.contacts-list {
+  display: flex;
+  gap: 40px;
+}
+.adress-mail-item,
+.adress-tel-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }

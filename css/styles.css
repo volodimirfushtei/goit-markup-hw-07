@@ -27,8 +27,6 @@ ol {
 }
 img {
   display: block;
-  border: none;
-  background-size: auto;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -345,9 +343,6 @@ img {
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
   margin: auto;
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
 }
 .portfolio-title {
   text-align: center;
@@ -355,13 +350,18 @@ img {
   margin-bottom: 72px;
 }
 .elements-title {
-  margin-bottom: 8px;
-  margin-top: 32px;
+  padding-top: 32px;
   padding-left: 16px;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
 .elements-title-item {
   margin-bottom: 32px;
   padding-left: 16px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
 .logo-footer {
   margin: 0 0 16px 0;
@@ -375,4 +375,9 @@ img {
 .footer-logo-item-link {
   margin: 0;
   width: 264px;
+}
+.portfolio-img {
+  border-style: none;
+  object-fit: cover;
+  max-width: 100%;
 }

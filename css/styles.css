@@ -27,6 +27,8 @@ ol {
 }
 img {
   display: block;
+  border: none;
+  background-size: auto;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -38,6 +40,7 @@ img {
   color: #4d5ae5;
   margin-top: 24px;
   margin-bottom: 24px;
+  margin-right: 76px;
 }
 .logo-item {
   color: #2e2f42;
@@ -304,6 +307,7 @@ img {
 .team-title {
   text-align: center;
   margin-bottom: 72px;
+  margin-top: 0;
 }
 .team-conteiner {
   display: flex;
@@ -323,4 +327,52 @@ img {
   text-align: center;
   margin-top: 0;
   margin-bottom: 32px;
+}
+.conteiner-team {
+  display: flex;
+  flex-direction: column;
+}
+.conteiner-port {
+  display: flex;
+  flex-direction: column;
+}
+.portfolio-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.portfolio-list-item {
+  width: calc((100% - 48px) / 3);
+  margin: auto;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+}
+.portfolio-title {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 72px;
+}
+.elements-title {
+  margin-bottom: 8px;
+  margin-top: 32px;
+  padding-left: 16px;
+}
+.elements-title-item {
+  margin-bottom: 32px;
+  padding-left: 16px;
+}
+.logo-footer {
+  margin: 0 0 16px 0;
+}
+.conteiner-footer-logo {
+  flex-direction: column;
+  margin-left: 156px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer-logo-item-link {
+  margin: 0;
+  width: 264px;
 }

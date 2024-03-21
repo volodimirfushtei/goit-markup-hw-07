@@ -313,7 +313,7 @@ img {
   gap: 24px;
 }
 .team-conteiner-item {
-  width: calc((100%-72px) / 4);
+  width: calc((100% - 72px) / 4);
   margin: auto;
 }
 .team-conteiner-item-name {

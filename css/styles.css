@@ -72,7 +72,6 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
-  text-align: center;
 }
 .section-button-item {
   font-family: 'Roboto', sans-serif;
@@ -238,6 +237,7 @@ img {
 .conteiner-nav {
   display: flex;
   margin-right: auto;
+  align-items: baseline;
 }
 .conteiner-nav-list {
   display: flex;
@@ -258,4 +258,69 @@ img {
 .adress-tel-item {
   padding-top: 24px;
   padding-bottom: 24px;
+}
+.conteiner-button {
+  align-items: center;
+  flex-direction: column;
+}
+.section-button-title {
+  text-align: center;
+  margin-bottom: 48px;
+  width: 496px;
+}
+.section-button-item {
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.section-adv-hidden-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.section-adv-list {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 24px;
+}
+.section-adv-title {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.section-adv-list-item {
+  width: calc((100% - 72px) / 4);
+  padding-left: 0;
+  margin: 0;
+}
+.team-title {
+  text-align: center;
+  margin-bottom: 72px;
+}
+.team-conteiner {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.team-conteiner-item {
+  width: calc((100%-72px) / 4);
+  margin: auto;
+}
+.team-conteiner-item-name {
+  margin-bottom: 8px;
+  margin-top: 32px;
+  text-align: center;
+}
+.team-conteiner-item-speciality {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 32px;
 }

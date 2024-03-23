@@ -62,9 +62,7 @@ img {
   gap: 40px;
   list-style-type: none;
 }
-.navigation-list-item-studio,
-.navigation-list-item-portfolio,
-.navigation-list-item-contacts {
+.navigation-list-item {
   padding: 24px 0;
 }
 .navigation-link {

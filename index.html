@@ -20,13 +20,13 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="conteiner header">
-        <nav class="conteiner-nav">
+    <header class="header">
+      <div class="container container-header">
+        <nav class="container-nav">
           <a class="logo" href="./index.html"
             >Web<span class="logo-item">Studio</span></a
           >
-          <ul class="conteiner-nav-list">
+          <menu class="container-nav-list">
             <li class="navigation-list-item-studio">
               <a class="navigation-link" href="./index.html">Studio</a>
             </li>
@@ -36,17 +36,17 @@
             <li class="navigation-list-item-contacts">
               <a class="navigation-link" href="">Contacts</a>
             </li>
-          </ul>
+          </menu>
         </nav>
         <address class="contacts">
           <ul class="contacts-list">
-            <li class="adress-mail-item">
-              <a class="link" href="mailto:info@devstudio.com"
+            <li class="contacts-list-item">
+              <a class="contacts-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="adress-tel-item">
-              <a class="link" href="tel:+110001111111">+11(000)111-11-11</a>
+            <li class="contacts-list-item">
+              <a class="contacts-link" href="tel:+110001111111">+11(000)111-11-11</a>
             </li>
           </ul>
         </address>
@@ -54,8 +54,8 @@
     </header>
     <main>
       <!-- Section 1 -->
-      <section class="section section-button">
-        <div class="conteiner conteiner-button">
+      <section class="section-button">
+        <div class="container container-button">
           <h1 class="section-button-title">
             Effective Solutions for Your Business
           </h1>
@@ -66,8 +66,8 @@
       </section>
       <!-- Section 2 -->
       <section class="section">
-        <div class="conteiner">
-          <h2 class="section-adv-hidden-title">Advantages</h2>
+        <div class="container">
+          <h2 class="visually-hidden">Advantages</h2>
           <ul class="section-adv-list">
             <li class="section-adv-list-item">
               <h3 class="section-adv-title">Strategy</h3>
@@ -102,115 +102,135 @@
       </section>
       <!-- section 3 -->
       <section class="section team-sec">
-        <div class="conteiner conteiner-team">
+        <div class="container container-team">
           <h2 class="team-title">Our Team</h2>
-          <ul class="team-conteiner">
-            <li class="team-conteiner-item">
-              <img
-                src="./images/img1.jpg"
-                alt="foto Mark Gurrero"
-                width="264"
-              />
-              <h3 class="team-conteiner-item-name">Mark Guerrero</h3>
-              <p class="team-conteiner-item-speciality">Product Designer</p>
+          <ul class="team-container">
+            <li class="team-container-item">
+              <div class="container-item">
+                <img
+                  src="./images/img1.jpg"
+                  alt="foto Mark Gurrero"
+                  width="264"
+                />
+                <h3 class="team-container-item-name">Mark Guerrero</h3>
+                <p class="team-container-item-speciality">Product Designer</p>
+              </div>
             </li>
-            <li class="team-conteiner-item">
-              <img src="./images/img2.jpg" alt="foto Tom Ford" width="264" />
-              <h3 class="team-conteiner-item-name">Tom Ford</h3>
-              <p class="team-conteiner-item-speciality">Frontend Developer</p>
+            <li class="team-container-item">
+             <div class="container-item">
+                <img src="./images/img2.jpg" alt="foto Tom Ford" width="264" />
+                <h3 class="team-container-item-name">Tom Ford</h3>
+                <p class="team-container-item-speciality">Frontend Developer</p>
+             </div>
             </li>
-            <li class="team-conteiner-item">
-              <img
-                src="./images/img3.jpg"
-                alt="foto Camila Garcia"
-                width="264"
-              />
-              <h3 class="team-conteiner-item-name">Camila Garcia</h3>
-              <p class="team-conteiner-item-speciality">Marketing</p>
+            <li class="team-container-item">
+              <div class="container-item">
+                <img
+                  src="./images/img3.jpg"
+                  alt="foto Camila Garcia"
+                  width="264"
+                />
+                <h3 class="team-container-item-name">Camila Garcia</h3>
+                <p class="team-container-item-speciality">Marketing</p>
+              </div>
             </li>
-            <li class="team-conteiner-item">
-              <img
-                src="./images/img4.jpg"
-                alt="foto Daniel Wilson"
-                width="264"
-              />
-              <h3 class="team-conteiner-item-name">Daniel Wilson</h3>
-              <p class="team-conteiner-item-speciality">UI Designer</p>
+            <li class="team-container-item">
+              <div class="container-item">
+                <img
+                  src="./images/img4.jpg"
+                  alt="foto Daniel Wilson"
+                  width="264"
+                />
+                <h3 class="team-container-item-name">Daniel Wilson</h3>
+                <p class="team-container-item-speciality">UI Designer</
+              </div>p>
             </li>
           </ul>
         </div>
       </section>
       <!-- section 4 -->
       <section class="section">
-        <div class="conteiner conteiner-port">
+        <div class="container container-port">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="portfolio-list-item">
-              <img
-                src="./images/img5.jpg"
-                alt="Banking"
-                width="360"
-                class="portfolio-img"
-              />
-              <h3 class="elements-title">Banking App</h3>
-              <p class="elements-title-item">App</p>
+              <div class="portfolio-item">
+                <img
+                  src="./images/img5.jpg"
+                  alt="Banking"
+                  width="360"
+                  class="portfolio-img"
+                />
+                <h3 class="elements-title">Banking App</h3>
+                <p class="elements-title-item">App</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
-              <img
-                src="./images/img6.jpg"
-                alt="Cash"
-                width="360"
-                class="portfolio-img"
-              />
-              <h3 class="elements-title">Cashless Payment</h3>
-              <p class="elements-title-item">Marketing</p>
+              <div class="portfolio-item">
+                <img
+                  src="./images/img6.jpg"
+                  alt="Cash"
+                  width="360"
+                  class="portfolio-img"
+                />
+                <h3 class="elements-title">Cashless Payment</h3>
+                <p class="elements-title-item">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
-              <img
-                src="./images/img7.jpg"
-                alt="Meditaion"
-                width="360"
-                class="portfolio-img"
-              />
-              <h3 class="elements-title">Meditation App</h3>
-              <p class="elements-title-item">App</p>
+              <div class="portfolio-item">
+                <img
+                  src="./images/img7.jpg"
+                  alt="Meditaion"
+                  width="360"
+                  class="portfolio-img"
+                />
+                <h3 class="elements-title">Meditation App</h3>
+                <p class="elements-title-item">App</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
-              <img
-                src="./images/img8.jpg"
-                alt="Taxi"
-                width="360"
-                class="portfolio-img"
-              />
-              <h3 class="elements-title">Taxi Service</h3>
-              <p class="elements-title-item">Marketing</p>
+              <div class="portfolio-item">
+                <img
+                  src="./images/img8.jpg"
+                  alt="Taxi"
+                  width="360"
+                  class="portfolio-img"
+                />
+                <h3 class="elements-title">Taxi Service</h3>
+                <p class="elements-title-item">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
-              <img
-                src="./images/img9.jpg"
-                alt="Screen"
-                width="360"
-                class="portfolio-img"
-              />
-              <h3 class="elements-title">Screen Illustrations</h3>
-              <p class="elements-title-item">Design</p>
+              <div class="portfolio-item">
+                <img
+                  src="./images/img9.jpg"
+                  alt="Screen"
+                  width="360"
+                  class="portfolio-img"
+                />
+                <h3 class="elements-title">Screen Illustrations</h3>
+                <p class="elements-title-item">Design</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
-              <img
-                src="./images/img10.jpg"
-                alt="Online"
-                width="360"
-                class="portfolio-img"
-              />
-              <h3 class="elements-title">Online Courses</h3>
-              <p class="elements-title-item">Marketing</p>
+              <div class="portfolio-item">
+                <img
+                  src="./images/img10.jpg"
+                  alt="Online"
+                  width="360"
+                  class="portfolio-img"
+                />
+                <h3 class="elements-title">Online Courses</h3>
+                <p class="elements-title-item">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <footer class="conteiner-footer">
-      <div class="conteiner conteiner-footer-logo">
+    <footer class="container-footer">
+      <div class="container container-link">
         <a class="logo logo-footer" href="./index.html"
           >Web<span class="footer-logo-item">Studio</span></a
         >

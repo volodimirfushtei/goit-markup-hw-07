@@ -159,6 +159,19 @@ img {
 .navigation-list-item-contacts .navigation-link:focus {
   color: #404bbf;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .section-adv-title {
   font-weight: 500;
   font-size: 20px;
@@ -271,17 +284,7 @@ img {
   border: none;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  overflow: hidden;
-}
+
 .section-adv-list {
   display: flex;
   align-items: center;

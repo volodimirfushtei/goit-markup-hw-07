@@ -53,11 +53,11 @@ img {
 .logo-item {
   color: #2e2f42;
 }
-.container-nav {
+.container-navi {
   align-items: center;
   display: flex;
 }
-.container-nav-list {
+.container-navi-list {
   display: flex;
   gap: 40px;
   list-style-type: none;

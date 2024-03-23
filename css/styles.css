@@ -65,7 +65,8 @@ img {
 .navigation-list-item {
   padding: 24px 0;
 }
-.navigation-link {
+.navigation-link,
+.navigation-link-studio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -116,11 +117,15 @@ img {
   margin-left: auto;
   padding: 24px 0;
 }
-.contacts-list-item .link {
+.contacts-list {
+  display: flex;
+  gap: 40px;
+}
+.contacts-link {
   color: #434455;
 }
-.contacts-list-item .link:hover,
-.contacts-list-item .link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 
@@ -134,21 +139,21 @@ img {
 .navigation-list-item-studio .navigation-link {
   color: #2e2f42;
 }
-.navigation-list-item-studio .navigation-link:hover,
-.navigation-list-item-studio .navigation-link:focus {
+.navigation-link-studio:hover,
+.navigation-link-studio:focus {
   color: #404bbf;
 }
-.navigation-list-item-studio .navigation-link:active {
+.navigation-link-studio:active {
   color: #404bbf;
 }
-.navigation-list-item-studio .navigation-link:active {
+.navigation-link-studio:active {
   text-decoration: underline;
 }
-.navigation-list-item-portfolio .navigation-link {
+.navigation-link {
   color: #2e2f42;
 }
-.navigation-list-item-portfolio .navigation-link:hover,
-.navigation-list-item-portfolio .navigation-link:focus {
+.navigation-link:hover,
+.navigation-link:focus {
   color: #404bbf;
 }
 .navigation-list-item-contacts .navigation-link {

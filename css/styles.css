@@ -155,6 +155,9 @@ img {
 .navigation-list-item-contacts .navigation-link {
   color: #2e2f42;
 }
+.navigation-list-item-contacts {
+  margin-right: 0;
+}
 .navigation-list-item-contacts .navigation-link:hover,
 .navigation-list-item-contacts .navigation-link:focus {
   color: #404bbf;

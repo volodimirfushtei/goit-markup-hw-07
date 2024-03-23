@@ -33,15 +33,12 @@ img {
 }
 .container {
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .container-header {
   display: flex;
-  align-items: baseline;
 }
 
 .logo {
@@ -116,6 +113,7 @@ img {
   font-style: normal;
   display: flex;
   margin-left: auto;
+  padding: 24px 0;
 }
 .contacts-list-item .link {
   color: #434455;

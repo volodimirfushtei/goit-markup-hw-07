@@ -87,7 +87,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+/* background-image */
 .section-button {
   padding-top: 188px;
   padding-bottom: 188px;
@@ -99,9 +99,11 @@ img {
     ),
     url(/images/people-office1.jpg);
   background-repeat: no-repeat;
-  background-size: 1440px;
   background-size: cover;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
 }
+/* background-image */
 .section-button-title {
   font-weight: 700;
   font-size: 56px;
@@ -366,4 +368,17 @@ img {
 }
 .container-link {
   display: block;
+}
+.wrapper-icon {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-adv-list-item .icon-adv {
 }

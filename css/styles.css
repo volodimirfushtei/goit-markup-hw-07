@@ -112,6 +112,10 @@ img {
   max-width: 1440px;
   background-position: center;
 }
+.container-button {
+  max-width: 1440px;
+  display: block;
+}
 /* background-image */
 .section-button-title {
   font-weight: 700;
@@ -163,7 +167,7 @@ img {
 }
 .section-button .section-button-item {
   background: #4d5ae5;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-button .section-button-item:hover,
 .section-button .section-button-item:focus {

@@ -110,7 +110,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people-office1.jpg);
+    url(../images/people-office1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-left: auto;
@@ -540,6 +540,6 @@ img {
   transform: translateY(100%);
 }
 
-.portfolio-img-wrapper:hover .overlay {
+.portfolio-list:hover .overlay {
   transform: translateY(0);
 }

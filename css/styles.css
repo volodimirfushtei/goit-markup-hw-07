@@ -517,7 +517,7 @@ img {
 
 /* overlay */
 
-.portfolio-img-wrapper {
+.portfolio-list-item {
   overflow: hidden;
   position: relative;
 }
@@ -540,6 +540,6 @@ img {
   transform: translateY(100%);
 }
 
-.portfolio-list:hover .overlay {
+.portfolio-list-item:hover .overlay {
   transform: translateY(0);
 }

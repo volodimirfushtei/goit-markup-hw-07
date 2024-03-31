@@ -19,6 +19,9 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+address {
+  font-style: normal;
+}
 ul,
 ol {
   margin-top: 0;
@@ -341,10 +344,13 @@ img {
   column-gap: 24px;
   flex-wrap: wrap;
   row-gap: 48px;
+  padding: 0;
 }
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0;
+  padding: 0;
 }
 .portfolio-item {
   border: 1px solid #e7e9fc;
@@ -499,7 +505,6 @@ img {
 .portfolio-img-wrapper {
   overflow: hidden;
   position: relative;
-  display: block;
 }
 
 .overlay {

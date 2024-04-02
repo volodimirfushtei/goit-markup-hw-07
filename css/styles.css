@@ -546,3 +546,68 @@ input {
 .portfolio-list-item:hover .overlay {
   transform: translateY(0);
 }
+
+/* form footer */
+
+.footer-form {
+  display: flex;
+  align-items: flex-end;
+}
+
+.footer-label {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+
+.label-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-input {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  padding: 8px 212px 8px 16px;
+  background-color: inherit;
+}
+
+.team-icon-send {
+  fill: #fff;
+}
+
+.footer-button {
+  background: #4d5ae5;
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+  margin-left: 24px;
+  align-content: center;
+}
+
+.button-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+}

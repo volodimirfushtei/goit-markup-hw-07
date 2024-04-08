@@ -696,6 +696,8 @@ label {
 }
 .input-wrap {
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .modal-form-input {
@@ -772,6 +774,7 @@ label {
   margin-bottom: 24px;
   margin-top: 16px;
 }
+
 .modal-form-div:not(:last-child) {
   margin-bottom: 8px;
 }

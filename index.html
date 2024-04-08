@@ -488,8 +488,8 @@
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="modal-form-div">
-            <lable class="modal-form-lable" for="name"></lable>
-            Name
+            <lable class="modal-form-lable" for="name"> Name</lable>
+
             <div class="input-wrap">
               <input
                 type="text"
@@ -502,9 +502,8 @@
               </svg>
             </div>
           </div>
-          <div>
-            <lable class="modal-form-lable" for="phone"></lable>
-            Phone
+          <div class="modal-form-div">
+            <lable class="modal-form-lable" for="phone">Phone</lable>
             <div class="input-wrap">
               <input
                 type="tel"
@@ -517,9 +516,8 @@
               </svg>
             </div>
           </div>
-          <div>
-            <lable class="modal-form-lable" for="email"></lable>
-            Email
+          <div class="modal-form-div">
+            <lable class="modal-form-lable" for="email">Email</lable>
             <div class="input-wrap">
               <input
                 type="email"
@@ -532,9 +530,10 @@
               </svg>
             </div>
           </div>
-          <div>
-            <lable class="modal-form-textarea-lable" for="comment"></lable>
-            Comment
+          <div class="modal-form-div">
+            <lable class="modal-form-textarea-lable" for="comment"
+              >Comment</lable
+            >
             <textarea
               name="Comment"
               id="comment"
@@ -550,14 +549,15 @@
               value="policy"
               class="modal-form-input vis-hidd"
             />
-            <lable class="modal-form-checkbox" for="user-check"></lable>
-            <span class="checkbox-svg-span">
-              <svg class="modal-icon-check" width="10" height="8">
-                <use href="./images/icons.svg#icon-Vectorchec"></use>
-              </svg>
-            </span>
-            I accept the terms and conditions of the
-            <a class="checkbox-span" href>Privacy Policy</a>
+            <lable class="modal-form-checkbox" for="user-check">
+              <span class="checkbox-svg-span">
+                <svg class="modal-icon-check" width="10" height="8">
+                  <use
+                    href="./images/icons.svg#icon-Vectorchec"
+                  ></use></svg></span
+              >I accept the terms and conditions of the
+              <a class="checkbox-span" href>Privacy Policy</a>
+            </lable>
           </div>
           <button type="submit" class="modal-form-button">Send</button>
         </form>

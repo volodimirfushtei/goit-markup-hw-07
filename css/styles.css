@@ -392,12 +392,12 @@ div {
 /* footer */
 
 .container-footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 
 .wrapper-logo {
   margin-right: 120px;
+  display: block;
 }
 
 .logo-footer {
@@ -405,7 +405,8 @@ div {
   display: inline-block;
 }
 .footer-logo-item-link {
-  max-width: 264px;
+  width: 264px;
+  height: 72px;
 }
 .container-link {
   display: flex;
@@ -557,16 +558,13 @@ div {
 }
 
 /* form footer */
+.footer-form-wrapper {
+  margin-left: auto;
+}
 
 .footer-form {
   display: flex;
-  align-items: flex-end;
-}
-
-.footer-label {
-  display: flex;
-  flex-direction: column;
-  margin-left: 80px;
+  gap: 24px;
 }
 
 .label-text {
@@ -588,14 +586,19 @@ div {
   width: 264px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  padding: 8px 212px 8px 16px;
+  padding-left: 16px;
   background-color: transparent;
   color: #fff;
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-input::placeholder {
+  color: #ffffff;
+}
 
 .team-icon-send {
+  fill: #fff;
+  margin-left: 16px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -651,10 +654,7 @@ div {
   width: 100%;
   height: 100%;
   z-index: 99;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
   background-color: rgb(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -773,7 +773,7 @@ div {
 
 /* Open modal */
 .modal-overlay.is-open {
-  opacity: 1;
+  opacity: 0;
   pointer-events: auto;
 }
 /* Open modal */

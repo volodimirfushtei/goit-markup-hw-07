@@ -559,7 +559,7 @@ div {
 
 /* form footer */
 .footer-form-wrapper {
-  margin-left: auto;
+  margin-left: 80px;
 }
 
 .footer-form {
@@ -616,7 +616,7 @@ div {
   justify-content: center;
   flex-direction: row;
   gap: 16px;
-  margin-left: 24px;
+
   align-content: center;
   cursor: pointer;
   border: none;

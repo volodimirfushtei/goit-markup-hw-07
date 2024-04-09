@@ -684,7 +684,10 @@ label {
   font-family: 'Roboto', sans-serif;
   margin-bottom: 16px;
 }
-
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
 .modal-form-lable {
   display: block;
   font-weight: 400;

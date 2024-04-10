@@ -776,7 +776,7 @@ div {
   margin-bottom: 24px;
 }
 
-.modal-form .modal-form-div:not(:last-child) {
+.modal-form .modal-form-div {
   margin-bottom: 8px;
 }
 .modal-form-checkbox {
@@ -843,7 +843,7 @@ div {
   justify-content: center;
   fill: transparent;
 }
-.modal-form-div:last-child {
+.modal-form .modal-form-div-textarea {
   margin-bottom: 16px;
 }
 .visually-hidden {

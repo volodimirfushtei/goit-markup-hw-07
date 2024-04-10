@@ -774,7 +774,6 @@ div {
 
 .modal-form-wrapper {
   margin-bottom: 24px;
-  margin-top: 16px;
 }
 
 .modal-form-div:not(:last-child) {
@@ -844,7 +843,7 @@ div {
   justify-content: center;
   fill: transparent;
 }
-.modal-form-div {
+.modal-form-div:last-child {
   margin-bottom: 16px;
 }
 .visually-hidden {

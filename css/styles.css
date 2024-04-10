@@ -776,7 +776,7 @@ div {
   margin-bottom: 24px;
 }
 
-.modal-form-div:not(:last-child) {
+.modal-form .modal-form-div:not(:last-child) {
   margin-bottom: 8px;
 }
 .modal-form-checkbox {
@@ -825,10 +825,10 @@ div {
 
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
-.checkbox-wrapper {
+/* .checkbox-wrapper {
   margin-bottom: 24px;
   margin-top: 16px;
-}
+} */
 
 .checkbox-svg-span {
   width: 16px;
@@ -880,6 +880,7 @@ div {
 .modal-icon-btn:hover,
 .modal-icon-btn:focus {
   background-color: #404bbf;
+  border: none;
 }
 
 .modal-icon-btn:hover .modal-icon,

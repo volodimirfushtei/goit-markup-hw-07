@@ -846,7 +846,7 @@ div {
 }
 .modal-icon-check {
 }
-.vis-hidd {
+.visually-hidden {
   position: absolute;
   padding: 0;
   white-space: nowrap;

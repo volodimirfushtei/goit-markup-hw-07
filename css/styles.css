@@ -881,14 +881,11 @@ div {
 .modal-icon-btn:hover,
 .modal-icon-btn:focus {
   background-color: #404bbf;
-  fill: #f4f4fd;
-  border: none;
 }
 
-.modal-icon:hover,
-.modal-icon:focus {
+.modal-icon-btn:hover .modal-icon,
+.modal-icon-btn:focus .modal-icon {
   fill: #ffffff;
-  background-color: #404bbf;
 }
 
 .modal-form-textarea:hover,
@@ -900,18 +897,21 @@ div {
   background-color: #404bbf;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
-.modal-form-input:checked + .modal-form-checkbox > .checkbox-svg-span {
+.modal-form-input:checked + .modal-form-lable > .checkbox-svg-span {
   fill: #f4f4fd;
   background-color: #404bbf;
   border: none;
 }
 
-.modal-form-checkbox .checkbox-svg-span:hover {
+.modal-form-lable .checkbox-svg-span:hover {
   fill: #f4f4fd;
   background-color: #404bbf;
   border: none;
 }
-.modal-form-checkbox .checkbox-svg-span:focus {
+.modal-form-lable .checkbox-svg-span:focus {
   fill: #f4f4fd;
   background-color: #404bbf;
+}
+.modal-form-input:focus + .modal-icon-input {
+  fill: #4d5ae5;
 }

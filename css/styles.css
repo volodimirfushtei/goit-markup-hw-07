@@ -763,7 +763,6 @@ div {
   border: none;
   background-color: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Open modal */
@@ -845,7 +844,8 @@ div {
   justify-content: center;
   fill: transparent;
 }
-
+.modal-icon-check {
+}
 .vis-hidd {
   position: absolute;
   padding: 0;

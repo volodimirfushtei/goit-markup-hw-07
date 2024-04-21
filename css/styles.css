@@ -1325,6 +1325,7 @@ div {
     max-width: 264px;
   }
   .logo-footer {
+    padding: 0;
   }
   .footer-form {
     gap: 24px;
@@ -1339,7 +1340,7 @@ div {
   .footer-links-title {
     text-align: left;
   }
-  .footer-links-conteiner {
+  .footer-links-container {
     display: inline-block;
     margin-bottom: 0;
     margin-top: 0;

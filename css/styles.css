@@ -1076,12 +1076,17 @@ div {
   padding-bottom: 40px;
   z-index: 99;
   display: flex;
-  opacity: 0;
   pointer-events: none;
   padding-left: 16px;
   padding-bottom: 40px;
   padding-top: 72px;
 }
+.modal-overlay-menu-mobile.is-open {
+  opacity: 0;
+  pointer-events: auto;
+  visibility: hidden;
+}
+
 .modal-overlay-menu-btn {
   position: absolute;
   top: 24px;

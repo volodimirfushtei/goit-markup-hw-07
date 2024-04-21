@@ -286,7 +286,7 @@ div {
 .navigation-link:focus {
   color: #404bbf;
 }
-.section-adv {
+.container-adv {
   padding: 96px 16px;
 }
 .visually-hidden {
@@ -327,12 +327,12 @@ div {
 
 .team-sec {
   background: #f4f4fd;
+  padding: 96px 28px;
 }
 
 .container-team {
   display: flex;
   flex-direction: column;
-  padding: 96px 28px;
 }
 .team-title {
   font-family: 'Roboto', sans-serif;
@@ -655,7 +655,7 @@ div {
 
 /* overlay */
 
-.portfolio-list-item {
+.portfolio-img-wrapper {
   overflow: hidden;
   position: relative;
 }
@@ -678,7 +678,7 @@ div {
   transform: translateY(100%);
 }
 
-.portfolio-list-item:hover .overlay {
+.portfolio-img-wrapper:hover .overlay {
   transform: translateY(0);
 }
 
@@ -1314,13 +1314,12 @@ div {
     display: flex;
     padding-top: 96px;
     padding-bottom: 96px;
-    padding-left: 108px;
-    padding-right: 164px;
   }
 
   .container-link {
     padding: 0;
     align-items: flex-start;
+    width: 584px;
   }
   .container-link-div {
     display: flex;
@@ -1358,11 +1357,11 @@ div {
   }
   .label-text {
     text-align: left;
-    margin-top: 72px;
   }
   .footer-form-wrapper {
     margin: 0;
     display: block;
+    margin-top: 72px;
   }
   .footer-form .footer-input {
     width: 264px;
@@ -1485,7 +1484,7 @@ div {
   .container-link-div {
     margin-right: 80px;
   }
-  .label-text {
+  .footer-form-wrapper {
     margin-top: 0;
   }
 }

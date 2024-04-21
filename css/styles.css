@@ -509,9 +509,9 @@ div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 72px;
 }
 .logo-footer {
-  margin-bottom: 16px;
   display: inline-block;
   text-align: center;
 }
@@ -580,8 +580,10 @@ div {
   flex-direction: column;
   align-items: center;
   width: 208px;
+}
+
+.footer-form-wrapper {
   margin-top: 72px;
-  margin-bottom: 72px;
 }
 
 .footer-links-title {
@@ -1319,13 +1321,14 @@ div {
     display: flex;
     flex-direction: row;
     margin-bottom: 0;
-    align-items: flex-start;
+    align-items: baseline;
   }
   .footer-logo-item-link {
     max-width: 264px;
   }
   .logo-footer {
     padding: 0;
+    margin-bottom: 16px;
   }
   .footer-form {
     gap: 24px;

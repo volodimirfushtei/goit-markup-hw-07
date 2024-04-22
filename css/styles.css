@@ -287,7 +287,8 @@ div {
   color: #404bbf;
 }
 .container-adv {
-  padding: 96px 16px;
+  padding-top: 96px;
+  padding-bottom: 38px;
 }
 .visually-hidden {
   position: absolute;
@@ -1269,6 +1270,9 @@ div {
     padding-top: 96px;
     padding-bottom: 96px;
   }
+  .container-adv {
+    padding: 0;
+  }
   .section-adv-list {
     gap: 72px 24px;
     flex-direction: row;
@@ -1286,7 +1290,7 @@ div {
     text-align: left;
   }
   .container-team {
-    padding: 96px 16px;
+    padding: 0 16px;
     max-width: 768px;
     align-items: center;
   }
@@ -1442,8 +1446,6 @@ div {
     width: calc((100% - 72px) / 4);
   }
   .container-team {
-    padding-top: 120px;
-    padding-bottom: 120px;
     max-width: 1440px;
   }
   .team-container {

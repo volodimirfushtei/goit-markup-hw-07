@@ -336,6 +336,7 @@ div {
 .container-team {
   display: flex;
   flex-direction: column;
+  padding: 0;
 }
 .team-title {
   font-family: 'Roboto', sans-serif;
